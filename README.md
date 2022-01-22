@@ -1,4 +1,3 @@
-# regulatory-void
 Replication files for the paper "The International Organization of Production in the Regulatory Void" by P. Herkenhoff and S. Krautheim
 ===========
 
