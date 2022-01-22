@@ -9,7 +9,7 @@ clear all
 set more off
 set varabbrev off
 
-cd "D:\github-clones\regulatory-void"
+cd "...\regulatory-void"
 
 **build dataset
 use ".\data\Regulatory_Void_07_10.dta", clear
