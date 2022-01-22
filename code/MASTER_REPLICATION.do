@@ -9,9 +9,12 @@ clear all
 set more off
 set varabbrev off
 
-cd "..."
+cd "D:\github-clones\regulatory-void"
 
-use ".\data\REGULATORY_VOID_REPLICATION.dta", clear
+**build dataset
+use ".\data\Regulatory_Void_07_10.dta", clear
+
+append using ".\data\Regulatory_Void_11_14.dta"
 
 
 **R&D data from AC2013
